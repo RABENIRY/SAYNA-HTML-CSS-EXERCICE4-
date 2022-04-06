@@ -1,0 +1,159 @@
+body{
+      font-family: ;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+      --primary-ad-color:#B11313;
+      --primary-ad-black:#000000;
+      --primary-ad-white:#ffffffff;
+}
+nav{
+       background-color:var(--primary-ad-color);
+       padding: 015px;0;
+ }
+ .content{
+       width: 75%;
+       margin: 0 auto;
+ }
+ ul{
+       list-style-type: none;
+ }
+ nav .navbar{
+       display: flex;
+       justify-content: space-between;
+      align-items: center;
+ }
+ nav .logo img{
+       padding-left: 15px;
+ }
+ nav .logo img :nth-child(2){
+      padding: bottom 15px;
+ }
+ nav .menu ul{
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+ }
+ 
+nav .menu ul li a{
+      margin-left: 20px;
+      font-size: 20px;
+      color: #ffffffff;
+      text-decoration: none;
+}
+/* La deuxieme section */
+#monster{
+       background-image: url( ../V_Desktop/Assets/Illustration/img5.png );
+       height: 400px;
+       background-position: right;
+       background-repeat: no-repeat;
+       background-color: #f1c530;
+
+}
+#monster .content{
+     color: #ffffffff;
+     position: relative;
+     top: 150px;
+     text-align: left;
+     padding: 120px;
+     width: 72%;
+}
+.title{
+      font-size: 62px;
+}
+.description{
+      font-size: large;
+}
+
+#antenne{
+  padding-top: 30px;
+  background-color: #B11313;
+}
+.content-titre{
+  text-decoration: none;
+  color: #ffffffff;
+}
+.content img{
+width: 360px;
+height: 300px;
+padding-top: 30px;
+}
+.formulaire{
+  display: flex;
+  justify-content: right;
+ 
+}
+
+
+
+
+
+
+
+
+#antenne .carte{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+
+/* this section is for the FOOTER*/
+footer{
+      background-color: #000000;
+      padding: 22px 10px;
+}
+.piedepage{
+      font-size: 15px;
+      color: white;
+      text-align: center;   
+}
+.navigation{
+      padding: 2em 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;  
+} 
+.navigation .ul1 {
+align-items: center;
+display: flex;
+justify-items: center;
+}
+.navigation .ul2 {
+      align-items: center;
+      display: flex;
+      justify-items: center;
+}
+.navigation li{
+      padding: 25px
+}
+.navigation li a{
+      text-decoration: none;
+      color: white;
+}
+.navigation .ul2 .formulaire{
+background-color: #f1c530;
+border-radius: 10%;
+padding: 04px 20px;
+width: 100px;
+color: #ffffffff;
+
+}
+footer .social-medias{
+padding: 13px;
+margin-bottom: 08px;
+
+}
+footer .social-medias img {
+background-color: #f1c530;
+color: white;
+border-radius: 18%;
+padding: 07px;
+}
+
+

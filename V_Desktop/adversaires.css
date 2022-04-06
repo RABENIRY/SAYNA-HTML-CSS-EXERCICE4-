@@ -1,0 +1,224 @@
+@import url(   );
+body{
+      font-family: ;
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+:root{
+      --primary-ad-color:#f1c530;
+      --primary-ad-black:#000000;
+      --primary-ad-white:#ffffffff;
+}
+nav{
+       background-color:var(--primary-ad-color);
+       padding: 015px;0;
+ }
+ .content{
+       width: 75%;
+       margin: 0 auto;
+ }
+ ul{
+       list-style-type: none;
+ }
+ nav .navbar{
+       display: flex;
+       justify-content: space-between;
+      align-items: center;
+ }
+ nav .logo img{
+       padding-left: 15px;
+ }
+ nav .logo img :nth-child(2){
+      padding: bottom 15px;
+ }
+ nav .menu ul{
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+ }
+ 
+nav .menu ul li a{
+      margin-left: 20px;
+      font-size: 20px;
+      color: #ffffffff;
+      text-decoration: none;
+}
+/* La deuxieme section */
+#monster{
+       background-image: url( ../V_Desktop/Assets/Illustration/img7.png );
+       height: 650px;
+       background-position: center;
+       background-repeat: no-repeat;
+
+}
+#monster .content{
+     color: #ffffffff;
+     position: absolute;
+     top: 258px;
+     text-align: right;
+     padding: 120px;
+     width: 72%;
+}
+.title{
+      font-size: 62px;
+}
+.description{
+      font-size: large;
+}
+
+#tableaux{
+background-color: #f1c530;
+padding-top: 30px;
+}
+#tableaux .carte{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+#tableaux .carte .carte-hero{
+      border: 5px solid var(--primary-ad-black);
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      width: 300px;
+      height: 400px;
+      margin: 20px;
+      box-shadow: 05px 07px  var(--primary-ad-black);
+}
+/* picture for each card */
+#tableaux .carte .carte-hero .carte-img1{
+     background-image: url(../V_Desktop/Assets/Illustration/img8.png); 
+     height: 145px;
+     margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-contenu{
+      font-size: 14px;
+      margin: 15px;    
+}
+#tableaux .carte .carte-hero .carte-titre {
+text-align: center;
+font-weight: bolder;
+ 
+}
+#tableaux .carte .carte-hero .carte-contenu p{
+      margin-bottom: 08px;
+      padding-bottom: 04;
+}
+#tableaux .carte .carte-hero .carte-contenu span{
+      font-weight: bolder;
+      text-align: center;   
+}
+#tableaux .carte .carte-hero .carte-img2{
+      background-image: url(../V_Desktop/Assets/Illustration/img9.png); 
+      height: 145px;
+      margin-bottom: 14px;
+ }
+ #tableaux .carte .carte-hero .carte-img3{
+      background-image: url(../V_Desktop/Assets/Illustration/img10.png); 
+      height: 145px;
+      margin-bottom: 14px;
+ }
+ #tableaux .carte .carte-hero .carte-img4{
+      background-image: url(../V_Desktop/Assets/Illustration/img11.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img5{
+      background-image: url(../V_Desktop/Assets/Illustration/img12.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img6{
+      background-image: url(../V_Desktop/Assets/Illustration/img13.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img7{
+      background-image: url(../V_Desktop/Assets/Illustration/img14.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img8{
+      background-image: url(../V_Desktop/Assets/Illustration/img15.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img9{
+      background-image: url(../V_Desktop/Assets/Illustration/img16.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img10{
+      background-image: url(../V_Desktop/Assets/Illustration/img17.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+#tableaux .carte .carte-hero .carte-img11{
+      background-image: url(../V_Desktop/Assets/Illustration/img18.png); 
+      height: 145px;
+      margin-bottom: 14px;
+}
+/*effct to the cards*/
+#tableaux .carte .carte-hero:hover{
+      transform: scale(1.2);
+      background-color: black;
+      color: aliceblue;
+}
+
+/* this section is for the FOOTER*/
+footer{
+      background-color: #000000;
+      padding: 22px 10px;
+}
+.piedepage{
+      font-size: 15px;
+      color: white;
+      text-align: center;   
+}
+.navigation{
+      padding: 2em 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;  
+} 
+.navigation .ul1 {
+align-items: center;
+display: flex;
+justify-items: center;
+}
+.navigation .ul2 {
+      align-items: center;
+      display: flex;
+      justify-items: center;
+}
+.navigation li{
+      padding: 25px
+}
+.navigation li a{
+      text-decoration: none;
+      color: white;
+}
+.navigation .ul2 .formulaire{
+background-color: #f1c530;
+border-radius: 10%;
+padding: 04px 20px;
+width: 100px;
+color: #ffffffff;
+
+}
+footer .social-medias{
+padding: 13px;
+margin-bottom: 08px;
+
+}
+footer .social-medias img {
+background-color: #f1c530;
+color: white;
+border-radius: 18%;
+padding: 07px;
+}
+
+
